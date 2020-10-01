@@ -1,0 +1,193 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  margin-top: 40px;
+  background-color: #11151C;
+}
+
+
+
+/* --------- index page - navbar ---------*/
+nav {
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: #778DA9;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: #E0E1DD;
+}
+
+
+
+
+/* ------- index page - first section -------*/
+.firstsection {
+  height: 550px;
+}
+
+.firstsection h1 {
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-size: 50px;
+}
+
+.firstsection img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* ------- index page - second section -------*/
+.secondsection{
+  background-color: #E0E1DD;
+  height: 490px;
+}
+.secondsection img{
+  float: left;
+  width: 50%;
+  padding-top: 55px;
+}
+
+.secondsection p {
+  padding: 200px;
+  font-size: 40px;
+}
+
+
+/* ------- index page - third section -------*/
+.thirdsection{
+  height: 400px;
+}
+
+.thirdsection p{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 155px;
+  font-size: 40px;
+}
+
+
+/* ---------products page  ---------- */
+.columnMask {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 200px;
+  padding: 30px;
+}
+
+.columnMask h1{
+  text-align: center;
+  color: #ffffff;
+}
+
+.columnMask h2 {
+  text-align: center;
+  color: #00a6ff;
+}
+
+.columnMask p {
+  text-align: left;
+  color: #ffffff;
+  padding: 40px;
+}
+
+
+
+/* ---------about page  ---------- */
+.reading .column{
+  background-color: #E0E1DD;
+  height: 320px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.column p {
+  padding: 70px;
+}
+
+.info p {
+  padding: 60px;
+  color: #E0E1DD;
+}
+
+
+
+
+
+/* ---------contact page  ---------- */
+form {
+  border: 3px none #E0E1DD;
+  padding: 450px;
+  padding-top: 150px;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.fillout {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.submit {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type=text] {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #D3D3D3;
+}
+
+input[type=submit] {
+  width: 300px;
+  background-color: #778DA9;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+
+
+/* ---------footer ---------- */
+.footer {
+  background-color: #778DA9;
+}
+
+.footer p {
+  height: 100px;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
