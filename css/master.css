@@ -141,7 +141,8 @@ a:hover {
 form {
   border: 3px none #E0E1DD;
   padding: 450px;
-  padding-top: 150px;
+  padding-top: 100px;
+  height: 80px;
 }
 
 .container {
